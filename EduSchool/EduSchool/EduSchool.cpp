@@ -75,7 +75,7 @@ void EduSchool::takeMathTest() {
     
     cout << setw(75) << "----------------------------------" << endl;
     cout << endl;
-    cout << setw(63) << "Math Test" << endl;
+    cout << setw(62) << "Math Test" << endl;
     cout << setw(75) << "----------------------------------" << endl;
     cout << endl;
     cout << endl;
@@ -211,51 +211,70 @@ void EduSchool::takeProgrammingTest() {
 
 void EduSchool::takeEnglishTest() {
     clearScreen();
+    asciiArt();
     int score = 0;
     char answer;
 
-    cout << setw(44) << "English Test:" << endl;
-    cout << setw(44) << "1. Which of the following is a verb?" << endl;
-    cout << setw(44) << "a) House" << endl;
-    cout << setw(44) << "b) Car" << endl;
-    cout << "c) Run" << endl;
-    cout << "d) Blue" << endl;
-    cout << "Your answer: ";
+    cout << setw(75) << "----------------------------------" << endl;
+    cout << endl;
+    cout << setw(64) << "English Test" << endl;
+    cout << setw(75) << "----------------------------------" << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << setw(45) << "1. Which of the following is a verb?" << endl;
+    cout << setw(19) << "a) House" << endl;
+    cout << setw(17) << "b) Car" << endl;
+    cout << setw(17) << "c) Run" << endl;
+    cout << setw(18) << "d) Blue" << endl;
+    cout << endl;
+    cout << setw(22) << "Your answer: ";
     cin >> answer;
     if (answer == 'c') score++;
 
-    cout << "2. What is a synonym for 'happy'?" << endl;
-    cout << "a) Sad" << endl;
-    cout << "b) Angry" << endl;
-    cout << "c) Joyful" << endl;
-    cout << "d) Fearful" << endl;
-    cout << "Your answer: ";
+    cout << endl;
+    cout << endl;
+    cout << setw(42) << "2. What is a synonym for 'happy'?" << endl;
+    cout << setw(17) << "a) Sad" << endl;
+    cout << setw(19) << "b) Angry" << endl;
+    cout << setw(20) << "c) Joyful" << endl;
+    cout << setw(21) << "d) Fearful" << endl;
+    cout << endl;
+    cout << setw(22) << "Your answer: ";
     cin >> answer;
     if (answer == 'c') score++;
 
-    cout << "3. What is the plural form of 'child'?" << endl;
-    cout << "a) Childs" << endl;
-    cout << "b) Childes" << endl;
-    cout << "c) Childs" << endl;
-    cout << "d) Children" << endl;
-    cout << "Your answer: ";
+    cout << endl;
+    cout << endl;
+    cout << setw(47) << "3. What is the plural form of 'child'?" << endl;
+    cout << setw(20) << "a) Childs" << endl;
+    cout << setw(21) << "b) Childes" << endl;
+    cout << setw(20) << "c) Childs" << endl;
+    cout << setw(22) << "d) Children" << endl;
+    cout << endl;
+    cout << setw(22) << "Your answer: ";
     cin >> answer;
     if (answer == 'd') score++;
 
-    cout << "4. What is the definition of 'adjective'?" << endl;
-    cout << "Your answer (Open-ended): ";
+    cout << endl;
+    cout << endl;
+    cout << setw(50) << "4. What is the definition of 'adjective'?" << endl;
+    cout << endl;
+    cout << setw(37) << "Your answer (Open-ended): ";
     string openEnded;
     cin.ignore();
     getline(cin, openEnded);
-    // No validation for open-ended questions
 
-    cout << "5. Write a sentence using the word 'happy'." << endl;
-    cout << "Your answer (Open-ended): ";
+    cout << endl;
+    cout << endl;
+    cout << setw(52) << "5. Write a sentence using the word 'happy'." << endl;
+    cout << setw(37) << "Your answer (Open-ended): ";
     getline(cin, openEnded);
-    // No validation for open-ended questions
 
-    cout << "English Test Completed!" << endl;
-    cout << "Your score: " << score << "/3" << endl;
+    cout << endl;
+    cout << endl;
+    cout << setw(70) << "English Test Completed!" << endl;
+    cout << setw(63) << "Your score: " << score << "/3" << endl;
     cout << endl;
 }
 
@@ -270,9 +289,10 @@ void EduSchool::pickOptions() {
         cout << endl;
         cout << setw(66) << "Choose a Subject" << endl;
         cout << setw(75) << "----------------------------------" << endl;
-        cout << setw(59) << "[1] Math" << endl;
-        cout << setw(66) << "[2] Programming" << endl;
-        cout << setw(62) << "[3] English" << endl;
+        cout << setw(58) << "[1] Math" << endl;
+        cout << setw(65) << "[2] Programming" << endl;
+        cout << setw(61) << "[3] English" << endl;
+        cout << setw(71) << "[4] Back to Main Menu" << endl;
         cout << setw(75) << "----------------------------------" << endl;
         cout << setw(68) << "Enter your choice: ";
         cin >> subjectOption;
@@ -287,14 +307,22 @@ void EduSchool::pickOptions() {
         case 3:
             takeEnglishTest();
             break;
+        case 4:
+            clearScreen();
+            asciiArt();
+            displayOptions();
+            pickOptions();
         default:
             cout << "Invalid subject option!" << endl;
             break;
         }
         cout << "Press any key to return to the main menu...";
         cin.ignore();
-        cin.get(); // Wait for user to press any key
-        pickOptions(); // Return to main menu after completing the test
+        cin.get();
+        clearScreen();
+        asciiArt();
+        displayOptions();
+        pickOptions();
     }
     else if (option == 2) {
         displayInstructions();
