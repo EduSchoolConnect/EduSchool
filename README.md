@@ -18,7 +18,7 @@
 
 ## 🧑 Collaborators <a name="collaborators"></a>
 - [Zafir Dinev](https://github.com/ZBDinev21) - Scrum trainer
-- [Daniel Stefanov](https://github.com/DanielStefanov) - Designer
+- [Daniel Stefanov](https://github.com/DanielStefanov) - QA
 - [Ivan Andreev](https://github.com/IVAndreev21) - Back-end Developer
 - [Ivan Tsvyatkov](https://github.com/INTsvyatkov211) - Back-end Developer
 - [Milan Nedelchev](https://github.com/MPNedelchev22) - Front-end Developer
