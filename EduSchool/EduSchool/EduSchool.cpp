@@ -74,8 +74,9 @@ void EduSchool::takeMathTest() {
     char answer;
     
     cout << setw(75) << "----------------------------------" << endl;
-    cout << endl;
     cout << setw(62) << "Math Test" << endl;
+    cout << endl;
+    cout << setw(72) << "Type 0 to Return to Test Menu" << endl;
     cout << setw(75) << "----------------------------------" << endl;
     cout << endl;
     cout << endl;
@@ -88,7 +89,12 @@ void EduSchool::takeMathTest() {
     cout << endl;
     cout << setw(22) << "Your answer: ";
     cin >> answer;
-    if (answer == 'b') score++;
+    if (answer == '0') {
+        asciiArt();
+        displayMenu();
+        pickOptions();
+    }
+    else if (answer == 'b') score++;
 
     cout << endl;
     cout << endl;
@@ -100,7 +106,12 @@ void EduSchool::takeMathTest() {
     cout << endl;
     cout << setw(22) << "Your answer: ";
     cin >> answer;
-    if (answer == 'a') score++;
+    if (answer == '0') {
+        asciiArt();
+        displayMenu();
+        pickOptions();
+    }
+    else if (answer == 'a') score++;
     
     cout << endl;
     cout << endl;
@@ -112,7 +123,12 @@ void EduSchool::takeMathTest() {
     cout << endl;
     cout << setw(22) << "Your answer: ";
     cin >> answer;
-    if (answer == 'c') score++;
+    if (answer == '0') {
+        asciiArt();
+        displayMenu();
+        pickOptions();
+    }
+    else if (answer == 'c') score++;
 
     cout << endl;
     cout << endl;
@@ -125,7 +141,12 @@ void EduSchool::takeMathTest() {
     cout << endl;
     cout << setw(22) << "Your answer: ";
     cin >> answer;
-    if (answer == 'a') score++;
+    if (answer == '0') {
+        asciiArt();
+        displayMenu();
+        pickOptions();
+    }
+    else if (answer == 'a') score++;
     
 
     cout << endl;
@@ -139,7 +160,12 @@ void EduSchool::takeMathTest() {
     cout << endl;
     cout << setw(22) << "Your answer: ";
     cin >> answer;
-    if (answer == 'd') score++;
+    if (answer == '0') {
+        asciiArt();
+        displayMenu();
+        pickOptions();
+    }
+    else if (answer == 'd') score++;
 
     cout << endl;
     cout << endl;
@@ -156,8 +182,9 @@ void EduSchool::takeProgrammingTest() {
     char answer;
 
     cout << setw(75) << "----------------------------------" << endl;
-    cout << endl;
     cout << setw(69) << "Programming Test (C++)" << endl;
+    cout << endl;
+    cout << setw(72) << "Type 0 to Return to Test Menu" << endl;
     cout << setw(75) << "----------------------------------" << endl;
     cout << endl;
     cout << endl;
@@ -170,7 +197,12 @@ void EduSchool::takeProgrammingTest() {
     cout << endl;
     cout << setw(22) << "Your answer: ";
     cin >> answer;
-    if (answer == 'b') score++;
+    if (answer == '0') {
+        asciiArt();
+        displayMenu();
+        pickOptions();
+    }
+    else if (answer == 'b') score++;
 
     cout << endl;
     cout << endl;
@@ -182,7 +214,12 @@ void EduSchool::takeProgrammingTest() {
     cout << endl;
     cout << setw(22) << "Your answer: ";
     cin >> answer;
-    if (answer == 'c') score++;
+    if (answer == '0') {
+        asciiArt();
+        displayMenu();
+        pickOptions();
+    }
+    else if (answer == 'c') score++;
 
     cout << endl;
     cout << endl;
@@ -194,7 +231,12 @@ void EduSchool::takeProgrammingTest() {
     cout << endl;
     cout << setw(22) << "Your answer: ";
     cin >> answer;
-    if (answer == 'd') score++;
+    if (answer == '0') {
+        asciiArt();
+        displayMenu();
+        pickOptions();
+    }
+    else if (answer == 'd') score++;
 
     cout << endl;
     cout << endl;
@@ -227,8 +269,9 @@ void EduSchool::takeEnglishTest() {
     char answer;
 
     cout << setw(75) << "----------------------------------" << endl;
-    cout << endl;
     cout << setw(64) << "English Test" << endl;
+    cout << endl;
+    cout << setw(72) << "Type 0 to Return to Test Menu" << endl;
     cout << setw(75) << "----------------------------------" << endl;
     cout << endl;
     cout << endl;
@@ -241,7 +284,12 @@ void EduSchool::takeEnglishTest() {
     cout << endl;
     cout << setw(22) << "Your answer: ";
     cin >> answer;
-    if (answer == 'c') score++;
+    if (answer == '0') {
+        asciiArt();
+        displayMenu();
+        pickOptions();
+    }
+    else if (answer == 'c') score++;
 
     cout << endl;
     cout << endl;
@@ -253,7 +301,12 @@ void EduSchool::takeEnglishTest() {
     cout << endl;
     cout << setw(22) << "Your answer: ";
     cin >> answer;
-    if (answer == 'c') score++;
+    if (answer == '0') {
+        asciiArt();
+        displayMenu();
+        pickOptions();
+    }
+    else if (answer == 'c') score++;
 
     cout << endl;
     cout << endl;
@@ -265,7 +318,12 @@ void EduSchool::takeEnglishTest() {
     cout << endl;
     cout << setw(22) << "Your answer: ";
     cin >> answer;
-    if (answer == 'd') score++;
+    if (answer == '0') {
+        asciiArt();
+        displayMenu();
+        pickOptions();
+    }
+    else if (answer == 'd') score++;
 
     cout << endl;
     cout << endl;
