@@ -116,25 +116,36 @@ void EduSchool::takeMathTest() {
 
     cout << endl;
     cout << endl;
-    cout << setw(64) << "4. What is the formula to find the area of a rectangle?" << endl;
+    cout << setw(30) << "4. What is 10% of 200?" << endl;
     cout << endl;
-    cout << setw(37) << "Your answer (Open-ended): ";
-    string openEnded;
-    cin.ignore();
-    getline(cin, openEnded);
+    cout << setw(16) << "a) 20" << endl;
+    cout << setw(16) << "b) 10" << endl;
+    cout << setw(16) << "c) 30" << endl;
+    cout << setw(16) << "d) 40" << endl;
+    cout << endl;
+    cout << setw(22) << "Your answer: ";
+    cin >> answer;
+    if (answer == 'a') score++;
+    
 
     cout << endl;
     cout << endl;
-    cout << setw(70) << "5. What is the formula to find the circumference of a circle?" << endl;
+    cout << setw(40) << "5. What is 4 to the power of 3?" << endl;
     cout << endl;
-    cout << setw(37) << "Your answer (Open-ended): ";
-    getline(cin, openEnded);
+    cout << setw(16) << "a) 48" << endl;
+    cout << setw(16) << "b) 56" << endl;
+    cout << setw(16) << "c) 72" << endl;
+    cout << setw(16) << "d) 64" << endl;
+    cout << endl;
+    cout << setw(22) << "Your answer: ";
+    cin >> answer;
+    if (answer == 'd') score++;
 
     cout << endl;
     cout << endl;
     cout << setw(64) << "Math Test Completed!" << endl;
     cout << endl;
-    cout << setw(58) << "Your score: " << score << "/3" << endl;
+    cout << setw(58) << "Your score: " << score << "/5" << endl;
     cout << endl;
 }
 

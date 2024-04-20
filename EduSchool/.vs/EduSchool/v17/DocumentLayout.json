@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\EduSchool\\EduSchool\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5892A5A-47AD-4746-821F-6211B3D1BABA}|EduSchool\\EduSchool.vcxproj|C:\\Users\\User\\EduSchool\\EduSchool\\EduSchool\\EduSchool.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5892A5A-47AD-4746-821F-6211B3D1BABA}|EduSchool\\EduSchool.vcxproj|solutionrelative:EduSchool\\EduSchool.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5892A5A-47AD-4746-821F-6211B3D1BABA}|EduSchool\\EduSchool.vcxproj|C:\\Users\\User\\EduSchool\\EduSchool\\EduSchool\\EduSchool.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5892A5A-47AD-4746-821F-6211B3D1BABA}|EduSchool\\EduSchool.vcxproj|solutionrelative:EduSchool\\EduSchool.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5892A5A-47AD-4746-821F-6211B3D1BABA}|EduSchool\\EduSchool.vcxproj|C:\\Users\\User\\EduSchool\\EduSchool\\EduSchool\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B5892A5A-47AD-4746-821F-6211B3D1BABA}|EduSchool\\EduSchool.vcxproj|solutionrelative:EduSchool\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EduSchool.h",
+              "DocumentMoniker": "C:\\Users\\User\\EduSchool\\EduSchool\\EduSchool\\EduSchool.h",
+              "RelativeDocumentMoniker": "EduSchool\\EduSchool.h",
+              "ToolTip": "C:\\Users\\User\\EduSchool\\EduSchool\\EduSchool\\EduSchool.h",
+              "RelativeToolTip": "EduSchool\\EduSchool.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-20T10:43:00.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\EduSchool\\EduSchool\\EduSchool\\main.cpp",
+              "RelativeDocumentMoniker": "EduSchool\\main.cpp",
+              "ToolTip": "C:\\Users\\User\\EduSchool\\EduSchool\\EduSchool\\main.cpp",
+              "RelativeToolTip": "EduSchool\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-20T10:43:00.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EduSchool.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\EduSchool\\EduSchool\\EduSchool\\EduSchool.cpp",
+              "RelativeDocumentMoniker": "EduSchool\\EduSchool.cpp",
+              "ToolTip": "C:\\Users\\User\\EduSchool\\EduSchool\\EduSchool\\EduSchool.cpp",
+              "RelativeToolTip": "EduSchool\\EduSchool.cpp",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAAAJMAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-20T10:43:00.446Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
