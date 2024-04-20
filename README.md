@@ -14,7 +14,7 @@
 [Team Documentation](WORK IN PROGRESS)
 
 ### Presentation
-[Presentation](WORK IN PROGRESS)
+[Presentation](https://github.com/EduSchoolConnect/EduSchool/blob/main/EduSchoolConnect.pptx)
 
 ## 🧑 Collaborators <a name="collaborators"></a>
 - [Zafir Dinev](https://github.com/ZBDinev21) - Scrum trainer
