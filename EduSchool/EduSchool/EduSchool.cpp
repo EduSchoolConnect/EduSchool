@@ -240,25 +240,39 @@ void EduSchool::takeProgrammingTest() {
 
     cout << endl;
     cout << endl;
-    cout << setw(63) << "4. What is the difference between '==' and '=' in C++?" << endl;
+    cout << setw(57) << "4. What does the 'break' keyword do in a loop ? " << endl;
     cout << endl;
-    cout << setw(37) << "Your answer (Open-ended): ";
-    string openEnded;
-    cin.ignore();
-    getline(cin, openEnded);
+    cout << setw(31) << "a) Exits the program" << endl;
+    cout << setw(53) << "b) Skips the current iteration of the loop" << endl;
+    cout << setw(64) << "c) Ends the loopand continues with the next iteration" << endl;
+    cout << setw(27) << "d) Ends the loop" << endl;
+    cout << endl;
+    cout << setw(22) << "Your answer: ";
+    cin >> answer;
+    if (answer == '0') {
+        asciiArt();
+        displayMenu();
+        pickOptions();
+    }
+    else if (answer == 'd') score++;
 
     cout << endl;
     cout << endl;
-    cout << setw(57) << "5. What is the purpose of 'if' statement in C++?" << endl;
+    cout << setw(65) << "5. What symbol is used for single-line comments in C++?" << endl;
     cout << endl;
-    cout << setw(37) << "Your answer (Open-ended): ";
-    getline(cin, openEnded);
+    cout << setw(16) << "a) //" << endl;
+    cout << setw(15) << "b) #" << endl;
+    cout << setw(17) << "c) % %" << endl;
+    cout << setw(19) << "d) /* */" << endl;
+    cout << endl;
+    cout << setw(22) << "Your answer: ";
+    
 
     cout << endl;
     cout << endl;
     cout << setw(68) << "Programming Test Completed!" << endl;
     cout << endl;
-    cout << setw(59) << "Your score: " << score << "/3" << endl;
+    cout << setw(59) << "Your score: " << score << "/5" << endl;
     cout << endl;
 }
 
@@ -327,23 +341,44 @@ void EduSchool::takeEnglishTest() {
 
     cout << endl;
     cout << endl;
-    cout << setw(50) << "4. What is the definition of 'adjective'?" << endl;
+    cout << setw(74) << "4. What is the verb in the sentence: 'She is running in the park.'?" << endl;
     cout << endl;
-    cout << setw(37) << "Your answer (Open-ended): ";
-    string openEnded;
-    cin.ignore();
-    getline(cin, openEnded);
-
+    cout << setw(21) << "a) Running" << endl;
+    cout << setw(17) << "b) She" << endl;
+    cout << setw(16) << "c) Is" << endl;
+    cout << setw(18) << "d) Park" << endl;
+    cout << endl;
+    cout << setw(22) << "Your answer: ";
+    cin >> answer;
+    if (answer == '0') {
+        asciiArt();
+        displayMenu();
+        pickOptions();
+    }
+    else if (answer == 'a') score++;
+   
     cout << endl;
     cout << endl;
-    cout << setw(52) << "5. Write a sentence using the word 'happy'." << endl;
-    cout << setw(37) << "Your answer (Open-ended): ";
-    getline(cin, openEnded);
+    cout << setw(58) << "5. My sister and I _____ to the beach yesterday.'" << endl;
+    cout << endl;
+    cout << setw(16) << "a) Go" << endl;
+    cout << setw(18) << "b) Goes" << endl;
+    cout << setw(18) << "c) Gone" << endl;
+    cout << setw(18) << "d) Went" << endl;
+    cout << endl;
+    cout << setw(22) << "Your answer: ";
+    cin >> answer;
+    if (answer == '0') {
+        asciiArt();
+        displayMenu();
+        pickOptions();
+    }
+    else if (answer == 'd') score++;
 
     cout << endl;
     cout << endl;
     cout << setw(70) << "English Test Completed!" << endl;
-    cout << setw(63) << "Your score: " << score << "/3" << endl;
+    cout << setw(63) << "Your score: " << score << "/5" << endl;
     cout << endl;
 }
 
