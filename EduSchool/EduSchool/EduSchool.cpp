@@ -266,6 +266,13 @@ void EduSchool::takeProgrammingTest() {
     cout << setw(19) << "d) /* */" << endl;
     cout << endl;
     cout << setw(22) << "Your answer: ";
+    cin >> answer;
+    if (answer == '0') {
+        asciiArt();
+        displayMenu();
+        pickOptions();
+    }
+    else if (answer == 'a') score++;
     
 
     cout << endl;

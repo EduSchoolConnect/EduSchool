@@ -1,3 +1,1 @@
-﻿  EduSchool.cpp
-D:\Milan\EduSchool\EduSchool\EduSchool\EduSchool.cpp(101,25): warning C4566: character represented by universal-character-name '\u03C0' cannot be represented in the current code page (1251)
-  EduSchool.vcxproj -> D:\Milan\EduSchool\EduSchool\x64\Debug\EduSchool.exe
+﻿  EduSchool.vcxproj -> D:\Milan\EduSchool\EduSchool\x64\Debug\EduSchool.exe
