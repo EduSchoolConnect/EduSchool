@@ -12,7 +12,7 @@
 <p> Our application is made, so students can test their knowledge on different subjects. When you pick the test you want to take you will be welcomed by a few questions. Each question gives you a point. At the end of the test you can see how many points you have and the correct answer to the questions you have made a mistake on. </p>
 
 ## 📃 Documentation <a name="docs"></a>
-### Code & Team Documentation
+### Documentation
 
 [Documentation](https://github.com/EduSchoolConnect/EduSchool/blob/main/Documentation/EduSchool_Documentation.docx)
 
