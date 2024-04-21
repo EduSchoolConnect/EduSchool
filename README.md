@@ -1,5 +1,7 @@
 # VirtualSchool
 
+<img src="EduSchoolLogo.png" alt="logo" height="450" width="450">
+
 ## 📋 Table of contents
   - [Description](#description)
   - [Documentation](#docs)
