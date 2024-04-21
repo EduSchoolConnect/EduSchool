@@ -1,6 +1,7 @@
 # VirtualSchool
 
-<img src="(https://cdn.discordapp.com/attachments/900731369422979083/1231558550632009889/EduSchoolLogo.png?ex=66376547&is=6624f047&hm=fa3aa0f7e2c80eeb002bc0f76eeef6184bf60724b49fbb035f004c3ec084426e&)" alt="logo" height="100" width="100">
+![EduSchoolLogo](https://github.com/EduSchoolConnect/EduSchool/assets/107103797/44da7529-df1d-47e8-95d8-c67c0520631e)
+
 
 ## 📋 Table of contents
   - [Description](#description)
