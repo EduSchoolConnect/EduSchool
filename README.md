@@ -14,7 +14,7 @@
 ## 📃 Documentation <a name="docs"></a>
 ### Code & Team Documentation
 
-[Team Documentation](WORK IN PROGRESS)
+[Documentation](https://github.com/EduSchoolConnect/EduSchool/blob/main/Documentation/EduSchool_Documentation.docx))
 
 ### Presentation
 [Presentation](https://github.com/EduSchoolConnect/EduSchool/blob/main/EduSchoolConnect.pptx)
